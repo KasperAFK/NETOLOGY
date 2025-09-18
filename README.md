@@ -1,7 +1,7 @@
 # NETOLOGY
 # Задача 1 - Выполнено
 
-![Layout](https://github.com/KasperAFK/NETOLOGY/blob/main/DZ444_1.png)
+!(https://github.com/KasperAFK/NETOLOGY/blob/main/DZ444_1.png)
 
 Ознакомьтесь с инструкцией по экономии облачных ресурсов.
 
