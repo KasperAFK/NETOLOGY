@@ -27,20 +27,20 @@ https://hub.docker.com/r/kasperafk/custom-nginx/tags
 - Достаточно добавить `include`раздел в основной compose.yaml файл, для объявления зависимости c docker-compose.yaml
 
 ### Задание №3
-![[DZ444_7.png]]
+![](./image/DZ444_7.png)
 
-И тут я понимаю что облачная ВМ не подходит
+И тут я понимаю что облачная ВМ не подходит, и требуется поднять локальную ВМ
 
-### Задание №6
-![[DZ444_9.png]]
-![[DZ444_10 1.png]]
+### Задание №4 - 6
+![](./image/DZ444_9.png)
+![](./image/DZ444_10.png)
 
 
-![[DZ444_11.png]]
+![](./image/DZ444_11.png)
 
 ### Задание №7
-![[DZ444_12.png]]
+![](./image/DZ444_12.png)
 Атрибут `version` в файле устарел и будет проигнорирован
 Docker Compose обнаружил только один файл (`docker-compose.yaml`)
 
-![[Pasted image 20250917163444.png]]
+![](./image/DZ444_13.png)
