@@ -22,7 +22,7 @@ https://hub.docker.com/r/kasperafk/custom-nginx/tags
 - Другими словами: Ищем последовательно: "compose.yaml" далее "compose.yml", далее "docker-compose.yaml" далее "docker-compose.yml".
 
 ### Задание №2
-![[Pasted image 20250917103432.png]]
+![](./image/DZ444_6_1.png)
 2.Отредактируйте файл compose.yaml так, чтобы были запущенны оба файла.
 - Достаточно добавить `include`раздел в основной compose.yaml файл, для объявления зависимости c docker-compose.yaml
 
