@@ -1,7 +1,7 @@
 ## Задача 1
 https://hub.docker.com/r/kasperafk/custom-nginx/tags
 ## Задача 2
-![[DZ444_1.png]]
+!image_DZ4/DZ444_1.png
 ## Задача 3
 ![[DZ444_2.png]]
 ![[DZ444_3.png]]
