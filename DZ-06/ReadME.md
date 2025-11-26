@@ -100,3 +100,9 @@ resource "docker_container" "nginx_container" {
 
 ```
 
+## Задание 6
+
+![](./image/DZ_666_13.png)
+![](./image/DZ_666_14.png)
+![](./image/DZ_666_15.png)
+![](./image/DZ_666_16.png)
