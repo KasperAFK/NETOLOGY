@@ -42,7 +42,7 @@
 
 Исправленный вариант:
 
-'''
+```
 terraform {
   required_providers {
     docker = {
@@ -80,5 +80,5 @@ resource "docker_container" "nginx_container" {
     external = 9090
   }
 }
-'''
+```
 
