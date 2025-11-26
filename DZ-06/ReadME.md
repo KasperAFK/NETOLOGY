@@ -40,9 +40,44 @@
 
 3.Ссылки на ресурс не существует. Имя "random_password.random_string_FAKE" не совпадает с фактическим. А так же в "resulT" допущен неправильный регистр.
 
-Исправленный фрагмент кода:
+![](./image/DZ_666_9.png)
+
+Теперь команда "terraform validate" проходит успешно.
+
+
+
+НО при попыке "terraform apply" жалуется на версию. Исправляем и пробуем.
+
+
+
+
+
+Исправленный код:
 
 ```
+terraform {
+  required_providers {
+    docker = {
+      source  = "kreuzwerker/docker"
+      version = "~> 3.5.0"
+    }
+  }
+  required_version = "~>1.12.0" /*Многострочный комментарий.
+ Требуемая версия terraform */
+}
+provider "docker" {}
+
+#однострочный комментарий
+
+resource "random_password" "random_string" {
+  length      = 16
+  special     = false
+  min_upper   = 1
+  min_lower   = 1
+  min_numeric = 1
+}
+
+
 resource "docker_image" "nginx" {
   name         = "nginx:latest"
   keep_locally = true
@@ -57,5 +92,7 @@ resource "docker_container" "nginx_container" {
     external = 9090
   }
 }
+
+
 ```
 
