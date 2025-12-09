@@ -31,3 +31,6 @@
 ![](./image/DZ_777_8.png)
 ![](./image/DZ_777_9.png)
 
+terraform apply
+
+![](./image/DZ_777_12.png)
