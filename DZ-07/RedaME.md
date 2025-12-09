@@ -60,10 +60,9 @@ core_fraction=5 - позволяет выделять VM только часть
 
 ## Задание 2
 
-### 2.1
 
 main.tf
-```
+```tf
 resource "yandex_vpc_network" "develop" {
   name = var.vpc_name
 }
@@ -108,7 +107,7 @@ resource "yandex_compute_instance" "platform" {
 ```
 
 variables.tf
-```
+```tf
 ###cloud vars
 
 
@@ -195,3 +194,5 @@ variable "vm_web_image_family" {
   default = "ubuntu-2004-lts"
 }
 ```
+
+![](./image/DZ_777_16.png)
