@@ -196,3 +196,10 @@ variable "vm_web_image_family" {
 ```
 
 ![](./image/DZ_777_16.png)
+
+
+## Задание 3
+
+## Задание 4
+
+![](./image/DZ_777_17.png)
