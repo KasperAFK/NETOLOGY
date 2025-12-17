@@ -104,3 +104,13 @@ networks:
 
 ## Задание 4
 
+Запуск скрипта:
+![](./image/DZ_555_5.png)
+
+Сайт проверки http подключений
+![](./image/DZ_555_6.png)
+
+Проверка БД
+![](./image/DZ_555_7.png)
+
+https://github.com/KasperAFK/shvirtd-example-python-DZ-05
