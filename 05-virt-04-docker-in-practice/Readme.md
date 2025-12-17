@@ -110,7 +110,8 @@ networks:
 Сайт проверки http подключений
 ![](./image/DZ_555_6.png)
 
-Проверка БД
+SQL-запрос на сервере: 
 ![](./image/DZ_555_7.png)
 
+ссылка на fork:
 https://github.com/KasperAFK/shvirtd-example-python-DZ-05
