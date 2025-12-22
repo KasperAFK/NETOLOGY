@@ -124,3 +124,7 @@ https://github.com/KasperAFK/shvirtd-example-python-DZ-05
 ![](./image/DZ_555_9.png)
 
 ![](./image/DZ_555_8.png)
+
+## Задача 6.1
+
+![](./image/DZ_555_10.png)
