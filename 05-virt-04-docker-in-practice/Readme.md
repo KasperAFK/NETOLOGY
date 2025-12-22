@@ -121,12 +121,6 @@ https://github.com/KasperAFK/shvirtd-example-python-DZ-05
 
 ## Задание 6
 
-1.DIVE 
+![](./image/DZ_555_9.png)
 
-Установка dive
-```
-DIVE_VERSION=$(curl -sL "https://api.github.com/repos/wagoodman/dive/releases/latest" | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
-curl -fOL "https://github.com/wagoodman/dive/releases/download/v${DIVE_VERSION}/dive_${DIVE_VERSION}_linux_amd64.deb"
-sudo apt install ./dive_${DIVE_VERSION}_linux_amd64.deb
-```
-
+![](./image/DZ_555_8.png)
